@@ -1,0 +1,33 @@
+.container foto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(128, 103, 103);
+    height: 1050px;
+    width: 950px;
+
+}
+
+.container fotos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(128, 103, 103);
+    height: 1050px;
+    width: 950px;
+
+}
+
+.foto {
+    border: 10px;
+    width: 315px;
+    height: 315px;
+}
+
+.fotos {
+    border: 10px;
+    width: 315px;
+    height: 315px;
+}
